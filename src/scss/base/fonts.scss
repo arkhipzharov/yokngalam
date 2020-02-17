@@ -1,0 +1,25 @@
+$path: '~@/assets/fonts/';
+
+@font-face {
+  font-weight: 400;
+  font-family: Lato;
+  font-style: normal;
+  src: local('Lato Regular'), local('Lato-Regular'),
+    url('#{$path}Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: ChunkFive;
+  font-style: normal;
+  src: local('ChunkFive Regular'), local('ChunkFive-Regular'),
+    url('#{$path}ChunkFive-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Monsterrat;
+  font-style: normal;
+  src: local('Monsterrat Regular'), local('Monsterrat-Regular'),
+    url('#{$path}Monsterrat-Regular.ttf') format('truetype');
+}

@@ -1,0 +1,89 @@
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  // break word if it's wider than container
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
+span {
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
+svg {
+  display: block;
+  // display current text color
+  fill: currentColor;
+}
+
+button {
+  padding: 0;
+  color: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  // because if parent have rgba color and child inherits it all opacities add up
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  display: block;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-weight: inherit;
+  border: 0;
+  outline: none;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+// Removes arrows from input[type='number']
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+// Removes arrows too
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+::placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+textarea {
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  resize: none;
+  display: block;
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+  box-sizing: border-box;
+}

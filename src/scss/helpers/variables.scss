@@ -1,0 +1,53 @@
+// Color pallette
+
+$white: #ffffff;
+
+$grey: #777777;
+$grey-light: #c7c7c7;
+$grey-dark: #2f2a32;
+
+$blue: #29d9c2;
+$blue-dark: #01a2a6;
+$blue-grey: #9bddd8;
+
+$green: #bdf271;
+$green-dark: #7ca83f;
+
+$yellow: #ffffa6;
+
+/*
+  End-use variables containing partially or fully colors taken from variables
+  in the palette. This approach allows you to not change the name of the
+  variable in the code itself if you need to change the color when choosing it
+*/
+
+// Text
+
+$text-white: $white;
+
+$text-grey: $grey;
+$text-grey-light: $grey-light;
+
+$text-blue: $blue;
+$text-blue-dark: $blue-dark;
+
+// Backgrounds
+
+$bg-blue: $blue-dark;
+$bg-blue-grey: $blue-grey;
+
+$bg-green: $green;
+
+$bg-yellow: $yellow;
+
+// Borders
+
+$border-green: $green-dark;
+
+// Fonts
+
+$font-fallback: Arial, sans-serif;
+
+$font-chunk-five: ChunkFive, $font-fallback;
+$font-lato: Lato, $font-fallback;
+$font-monsterrat: Monsterrat, $font-fallback;

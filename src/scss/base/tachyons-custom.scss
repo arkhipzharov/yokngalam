@@ -1,0 +1,34 @@
+// Text colors
+
+.blue-dark {
+  color: $text-blue-dark;
+}
+
+.grey {
+  color: $text-grey;
+}
+
+// Border colors
+
+.b--green {
+  border-color: $border-green;
+}
+
+// Fonts
+
+.chunk-five {
+  font-family: $font-chunk-five;
+  letter-spacing: rem(2);
+}
+
+// Line-height
+
+.lh-large {
+  line-height: 1.944;
+}
+
+// Max-width
+
+.mw-page {
+  max-width: rem(1170);
+}
