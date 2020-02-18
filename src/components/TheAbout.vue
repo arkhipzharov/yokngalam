@@ -2,11 +2,11 @@
 <template>
   <div class="about pv5 ph3 ph4-ns cf">
     <div class="about__left w5 pr3-l fl w-100 w-50-l flex justify-end-l">
-      <div class="about__image mr5-l mw6">
+      <div class="about__image-wrapper w-100">
         <img
           src="@/assets/img/near-text/city.png"
           alt="city"
-          class="about__image"
+          class="about__image w-100"
         >
       </div>
     </div>
@@ -33,6 +33,14 @@
 
 <style lang="scss">
   .about {
+    &__image-wrapper {
+      max-width: rem(517);
+    }
+
+    &__image {
+      max-width: rem(447);
+    }
+
     &__title {
       color: $text-blue;
       font-size: rem(60);

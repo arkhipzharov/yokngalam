@@ -19,7 +19,7 @@
       <div
         class="subscribe__left mb4 mb0-l pr3-l w-100 w-50-l flex justify-end-l"
       >
-        <div class="subscribe__left-inner w-100">
+        <div class="subscribe__left-message w-100">
           <h1 class="subscribe__title chunk-five ma0 mb1">Keep in Touch</h1>
           <p class="subscribe__text f4 lh-large">
             We Will Give you latest information about Malang
@@ -93,7 +93,7 @@
   .subscribe {
     background-color: $bg-green;
 
-    &__left-inner {
+    &__left-message {
       max-width: rem(570);
     }
 
