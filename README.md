@@ -9,7 +9,7 @@ This is a fully adaptive test task website made with
 1. `git clone https://github.com/shiftenko/yokngalam`
 2. `npm install`
 
-> Type checking for all files except unit tests is launched along with commands
+> Type checking for all files is launched along with commands
 > `npm run build` and `npm run dev`
 
 ## 👷‍♂ Development
