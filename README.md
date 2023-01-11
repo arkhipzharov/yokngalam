@@ -10,7 +10,7 @@ This is a fully adaptive test task website made with
 2. `npm i`
 3. `git worktree add dist gh-pages`
 
-> Type checking for all files except unit tests is launched along with commands
+> Type checking for all files is launched along with commands
 > `npm run build` and `npm run dev`
 
 ## 👷‍♂ Development
