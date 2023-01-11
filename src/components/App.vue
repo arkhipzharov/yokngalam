@@ -12,7 +12,7 @@
 -->
 <!-- eslint-disable prettier/prettier -->
 <template>
-  <div :class="['app ph3 ph4-ns', { noscroll: !isPageScrollable }]">
+  <div :class="['app', { noscroll: !isPageScrollable }]">
     <TheHero />
     <TheAbout />
     <TheSubscribe />
