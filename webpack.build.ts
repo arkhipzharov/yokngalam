@@ -109,7 +109,13 @@ const config: webpack.Configuration = {
       // change bundled css filename
       filename: 'style.[hash].css',
     }),
-    new CleanWebpackPlugin(),
+    new CleanWebpackPlugin({
+      // ignoring .git file because we are setted dist/ folder as git worktree
+      // for deploying build files to github pages, and without that file
+      // worktree functionality not working
+      // https://medium.com/linagora-engineering/deploying-your-js-app-to-github-pages-the-easy-way-or-not-1ef8c48424b7
+      cleanOnceBeforeBuildPatterns: ['!.git'],
+    }),
   ],
 };
 
